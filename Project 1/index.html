@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Sohan Hajra</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body style="overflow: auto;" onload="myFunction()">
+  <div id = "loading"></div>
+
+<header class="site-header clearfix">
+ <nav>
+  <div class="logo">
+   <h1>SOHAN HAJRA</h1>
+  </div>
+  <div class="menu"> 
+   <ul>
+    <li><a href="C:\Users\ADMIN\Desktop\ONLINE CLASSES ACADEMIC YEAR 20-21\COMPUTER\Site\index.html">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+   </ul>
+  </div>
+ </nav>
+
+ <!--Body-->
+ <section>
+  <div class="leftside"> 
+   <img src="grape.png">
+  </div>
+  <div class="rightside"> 
+   <h1>CRYPTO-KING
+   </h1><br>
+   <a href="C:\Users\ADMIN\Desktop\ONLINE CLASSES ACADEMIC YEAR 20-21\COMPUTER\Summer Assignment\Holiday Homework.html"><button>Welcome</button></a>
+  </div>
+ </section>
+</header>
+
+<!--Footer-->
+<footer>
+<h1>Support Us</h1><br><br>
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/" class="fa fa-twitter"></a>
+<a href="https://plus.google.com/up/?continue=https://plus.google.com/share?url%3Dhttp://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/" class="fa fa-google"></a>
+<a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+<a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+<a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
+<a href="https://www.skype.com/en/" class="fa fa-skype"></a>
+</footer>
+
+
+<!--Top Button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="download.png" width="50px" height="75px"></button>
+
+<script type="text/javascript">
+  mybutton= document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+   {
+    mybutton.style.display = "block";
+  } 
+  else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+</script>
+
+<!--Loading Sceen-->
+<div class="loader-wrapper" id="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+<script type="text/javascript">
+  var preloader = document.getElementById('loading')
+  function myFunction() {
+        preloader.style.display = "none";
+      }
+    </script>
+</body>
+</html>
